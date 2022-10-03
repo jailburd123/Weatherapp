@@ -58,35 +58,46 @@ console.log('Successfully completed!')
 let changeBG = (data) => {
     console.log("Weather: ", data);
     if(data.includes('clouds')){
-        document.body.style.backgroundImage = "url('https://www.budgetbytes.com/wp-content/uploads/2010/07/Classic-Homemade-Pizza-Dough-close-V3.jpg')";
+        document.body.style.backgroundImage = "url('./imgs/clouds.jpg')";
         console.log('There was clouds');
     } else if(data.includes('rain')){
+        document.body.style.backgroundImage = "url('./imgs/rain.jpg')";
         console.log('There was rain');
     } else if(data.includes('clear')){
+        document.body.style.backgroundImage = "url('./imgs/clear.jpg')";
         console.log('There was clear');
     } else if(data.includes('snow')){
+        document.body.style.backgroundImage = "url('./imgs/snow.jpg')";
         console.log('There was snow');
     } else if(data.includes('mist')){
+        document.body.style.backgroundImage = "url('../imgs/mist.jpg')";
         console.log('There was mist');
     } else if(data.includes('thunderstorm')){
+        document.body.style.backgroundImage = "url('./imgs/thunderstorm.jpg')";
         console.log('There was thunderstorm');
     } else if(data.includes('drizzle')){
+        document.body.style.backgroundImage = "url('./imgs/drizzle.jpg')";
         console.log('There was drizzle');
     } else if(data.includes('fog')){
+        document.body.style.backgroundImage = "url('./imgs/fog.jpg')";
         console.log('There was fog');
     } else if(data.includes('haze')){
+        document.body.style.backgroundImage = "url('./imgs/hazy.jpg')";
         console.log('There was haze');
     } else if(data.includes('smoke')){
+        document.body.style.backgroundImage = "url('./imgs/smoke.jpg')";
         console.log('There was smoke');
     } else if(data.includes('sand')){
+        document.body.style.backgroundImage = "url('./imgs/sand.jpg')";
         console.log('There was sand');
     } else if(data.includes('dust')){
+        document.body.style.backgroundImage = "url('./imgs/dust.jpg')";
         console.log('There was dust');
     } else if(data.includes('ash')){
+        document.body.style.backgroundImage = "url('./imgs/ash.jpg')";
         console.log('There was ash');
-    } else if(data.includes('squall')){
-        console.log('There was squall');
     } else if(data.includes('tornado')){
+        document.body.style.backgroundImage = "url('./imgs/tornado.jpg')";
         console.log('There was tornado');
     } else {
         console.log('There was nothing');
